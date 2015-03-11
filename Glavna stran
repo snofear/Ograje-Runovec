@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US"><head><!-- Created by Artisteer v4.1.0.59861 -->
+    <meta charset="utf-8">
+    <title>Ograje-runovec</title>
+    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
+
+    <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" href="style.css" media="screen">
+    <!--[if lte IE 7]><link rel="stylesheet" href="style.ie7.css" media="screen" /><![endif]-->
+    <link rel="stylesheet" href="style.responsive.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans&amp;subset=latin">
+
+
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+    <script src="script.responsive.js"></script>
+<meta name="keywords" content="ograje, runovec, ograje runovec, janez runovec, panelne ograje, mobilne ograje, ograje v rolah, vrata, pesjaki">
+
+
+
+<script>jQuery(function($) {
+    'use strict';
+    if ($.fn.slider) {
+        $(".art-slidecontainerDSCN2230").each(function () {
+            var slideContainer = $(this), tmp;
+            var inner = $(".art-slider-inner", slideContainer);
+            var helper = null;
+
+            if ($.support.transition) {
+                helper = new BackgroundHelper();
+                helper.init("fade", "next", $(".art-slide-item", inner).first().css($.support.transition.prefix + "transition-duration"));
+                inner.children().each(function () {
+                    helper.processSlide($(this));
+                });
+
+            }
+
+
+            inner.children().eq(0).addClass("active");
+            slideContainer.slider({
+                pause: 2600,
+                speed: 600,
+                repeat: true,
+                animation: "fade",
+                direction: "next",
+                navigator: slideContainer.siblings(".art-slidenavigatorDSCN2230"),
+                helper: helper                
+            });
+        });
+    }
+});
+</script><style>.art-content .art-postcontent-0 .layout-item-0 {  border-collapse: separate;  }
+.art-content .art-postcontent-0 .layout-item-1 { border-top-width:2px;border-top-style:solid;border-top-color:#B1B8C3;margin-top: 5px;margin-bottom: 5px;  }
+.art-content .art-postcontent-0 .layout-item-2 { color: #262626; background: #E0E0E0; padding-right: 5px;padding-left: 5px;  }
+.art-content .art-postcontent-0 .layout-item-3 { padding-right: 5px;padding-left: 5px;  }
+.art-content .art-postcontent-0 .layout-item-4 { border-top-width:2px;border-top-style:solid;border-top-color:#B1B8C3;margin-top: 0px;margin-bottom: 0px;  }
+.ie7 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
+.ie6 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
+
+.art-slidecontainerDSCN2230 {
+    position: relative;
+        width: 300px;
+    height: 225px;
+        }
+
+.art-slidecontainerDSCN2230 .art-slide-item
+{
+
+}
+
+
+
+.art-slidecontainerDSCN2230 .art-slide-item {
+    -webkit-transition: 600ms ease-in-out opacity;
+    -moz-transition: 600ms ease-in-out opacity;
+    -ms-transition: 600ms ease-in-out opacity;
+    -o-transition: 600ms ease-in-out opacity;
+    transition: 600ms ease-in-out opacity;
+    position: absolute;
+    display: none;
+	left: 0;
+	top: 0;
+	opacity: 0;
+    width:  100%;
+    height: 100%;
+}
+
+.art-slidecontainerDSCN2230 .active, .art-slidecontainerDSCN2230 .next, .art-slidecontainerDSCN2230 .prev {
+    display: block;
+}
+
+.art-slidecontainerDSCN2230 .active {
+    opacity: 1;
+}
+
+.art-slidecontainerDSCN2230 .next, .art-slidecontainerDSCN2230 .prev {
+    width: 100%;
+}
+
+.art-slidecontainerDSCN2230 .next.forward, .art-slidecontainerDSCN2230 .prev.back {
+    opacity: 1;
+}
+
+.art-slidecontainerDSCN2230 .active.forward {
+    opacity: 0;
+}
+
+.art-slidecontainerDSCN2230 .active.back {
+    opacity: 0;
+}
+
+
+.art-slideDSCN22300 {
+    background-image:  url('images/slideDSCN22300.jpg');
+        background-size:  100%;
+        background-position:  0 0;
+    background-repeat: no-repeat;
+}
+.art-slideDSCN22301 {
+    background-image:  url('images/slideDSCN22301.jpg');
+        background-size:  100%;
+        background-position:  0 0;
+    background-repeat: no-repeat;
+}
+.art-slideDSCN22302 {
+    background-image:  url('images/slideDSCN22302.jpg');
+        background-size:  100%;
+        background-position:  0 0;
+    background-repeat: no-repeat;
+}
+.art-slideDSCN22303 {
+    background-image:  url('images/slideDSCN22303.jpg');
+        background-size:  100%;
+        background-position:  0 0;
+    background-repeat: no-repeat;
+}
+.art-slideDSCN22304 {
+    background-image:  url('images/slideDSCN22304.jpg');
+        background-size:  100%;
+        background-position:  0 0;
+    background-repeat: no-repeat;
+}
+.art-slideDSCN22305 {
+    background-image:  url('images/slideDSCN22305.jpg');
+        background-size:  100%;
+        background-position:  0 0;
+    background-repeat: no-repeat;
+}
+
+
+.art-slidenavigatorDSCN2230 {
+  display: inline-block;
+  position: absolute;
+  direction: ltr !important;
+  top: 201px;
+  left: 58.67%;
+  z-index: 101;
+  line-height: 0 !important;
+  -webkit-background-origin: border !important;
+  -moz-background-origin: border !important;
+  background-origin: border-box !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+    white-space: nowrap;
+    }
+.art-slidenavigatorDSCN2230
+{
+background: #5B81BE;background: linear-gradient(top, rgba(146, 171, 211, 0.6) 0, rgba(73, 115, 182, 0.6) 67%, rgba(58, 92, 146, 0.6) 100%) no-repeat;background: -webkit-linear-gradient(top, rgba(146, 171, 211, 0.6) 0, rgba(73, 115, 182, 0.6) 67%, rgba(58, 92, 146, 0.6) 100%) no-repeat;background: -moz-linear-gradient(top, rgba(146, 171, 211, 0.6) 0, rgba(73, 115, 182, 0.6) 67%, rgba(58, 92, 146, 0.6) 100%) no-repeat;background: -o-linear-gradient(top, rgba(146, 171, 211, 0.6) 0, rgba(73, 115, 182, 0.6) 67%, rgba(58, 92, 146, 0.6) 100%) no-repeat;background: -ms-linear-gradient(top, rgba(146, 171, 211, 0.6) 0, rgba(73, 115, 182, 0.6) 67%, rgba(58, 92, 146, 0.6) 100%) no-repeat;background: linear-gradient(top, rgba(146, 171, 211, 0.6) 0, rgba(73, 115, 182, 0.6) 67%, rgba(58, 92, 146, 0.6) 100%) no-repeat;-svg-background: linear-gradient(top, rgba(146, 171, 211, 0.6) 0, rgba(73, 115, 182, 0.6) 67%, rgba(58, 92, 146, 0.6) 100%) no-repeat;
+-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;
+
+
+padding:7px;
+
+
+
+
+
+}
+.art-slidenavigatorDSCN2230 > a
+{
+background: #2D4771;background: #2D4771;background: #2D4771;background: #2D4771;background: #2D4771;background: #2D4771;background: #2D4771;-svg-background: #2D4771;
+-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
+
+
+
+margin:0 10px 0 0;
+
+width: 10px;
+
+height: 10px;
+}
+.art-slidenavigatorDSCN2230 > a.active
+{
+background: #B0B0B0;background: #B0B0B0;background: #B0B0B0;background: #B0B0B0;background: #B0B0B0;background: #B0B0B0;background: #B0B0B0;-svg-background: #B0B0B0;
+-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
+
+
+
+margin:0 10px 0 0;
+
+width: 10px;
+
+height: 10px;
+}
+.art-slidenavigatorDSCN2230 > a:hover
+{
+background: #595959;background: #595959;background: #595959;background: #595959;background: #595959;background: #595959;background: #595959;-svg-background: #595959;
+-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
+
+
+
+margin:0 10px 0 0;
+
+width: 10px;
+
+height: 10px;
+}
+
+</style>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51312574-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    </head>
+<body>
+<div id="art-main">
+<header class="art-header">
+
+
+    <div class="art-shapes">
+<div class="art-object533561304" data-left="100%"></div>
+<div class="art-textblock art-object554312304" data-left="0%">
+        <div class="art-object554312304-text-container">
+        <div class="art-object554312304-text"></div>
+    </div>
+    
+</div>
+            </div>
+<h1 class="art-headline" data-left="0%">
+    <a href="#">Janez Runovec</a>
+</h1>
+<h2 class="art-slogan" data-left="0%">Trgovina in zunanje ureditve</h2>
+
+
+
+
+<nav class="art-nav">
+    <div class="art-nav-inner">
+    <ul class="art-hmenu"><li><a href="domov.html" class="active">Domov</a></li><li><a href="o-nas.html">O nas</a></li><li><a href="panelne-ograje.html">Panelne ograje</a><ul><li><a href="panelne-ograje/zenturo-dekorativne-ograje.html">Zenturo® dekorativne ograje</a></li><li><a href="panelne-ograje/nylofor-3d.html">Nylofor® 3D</a></li><li><a href="panelne-ograje/nylofor-3d-multi.html">Nylofor® 3D Multi</a></li><li><a href="panelne-ograje/nylofor-3d-super.html">Nylofor® 3D Super</a></li><li><a href="panelne-ograje/decofor.html">Decofor®</a></li><li><a href="panelne-ograje/securifor.html">Securifor®</a></li><li><a href="panelne-ograje/bekafor-classic.html">Bekafor® Classic</a></li><li><a href="panelne-ograje/bekafor-prestige.html">Bekafor® Prestige</a></li><li><a href="panelne-ograje/bekasport.html">Bekasport®</a></li></ul></li><li><a href="mobilne-ograje.html">Mobilne ograje</a><ul><li><a href="mobilne-ograje/tip-b.html">Tip B</a></li><li><a href="mobilne-ograje/tip-c.html">Tip C</a></li><li><a href="mobilne-ograje/tip-f.html">Tip F</a></li></ul></li><li><a href="ograje-v-rolah.html">Ograje v rolah</a><ul><li><a href="ograje-v-rolah/pantanet-basic.html">Pantanet® Basic</a></li><li><a href="ograje-v-rolah/pantanet-family.html">Pantanet® Family</a></li><li><a href="ograje-v-rolah/pantanet-protect.html">Pantanet® Protect</a></li><li><a href="ograje-v-rolah/fortinet-medium.html">Fortinet® Medium</a></li><li><a href="ograje-v-rolah/fortinet-super.html">Fortinet® Super</a></li><li><a href="ograje-v-rolah/luxanet.html">Luxanet®</a></li><li><a href="ograje-v-rolah/luxursus.html">Luxursus®</a></li><li><a href="ograje-v-rolah/plasitor.html">Plasitor®</a></li><li><a href="ograje-v-rolah/casanet.html">Casanet®</a></li><li><a href="ograje-v-rolah/casanet-plastic-voliere.html">Casanet® Plastic Voliere</a></li><li><a href="ograje-v-rolah/hexanet-plastic.html">Hexanet® Plastic</a></li><li><a href="ograje-v-rolah/galitor.html">Galitor®</a></li><li><a href="ograje-v-rolah/hexanet.html">Hexanet®</a></li><li><a href="ograje-v-rolah/ursus-light-zincalu.html">Ursus® Light Zincalu®</a></li><li><a href="ograje-v-rolah/ursus-heavy-zincalu-super.html">Ursus® Heavy Zincalu® Super</a></li><li><a href="ograje-v-rolah/ursus-as-leger-as-medium.html">Ursus® AS Leger / AS Medium</a></li></ul></li><li><a href="pesjaki.html">Pesjaki</a></li><li><a href="vrata.html">Vrata</a></li><li><a href="galerija.html">Galerija</a></li></ul> 
+        </div>
+    </nav>
+
+                    
+</header>
+<div class="art-sheet clearfix">
+            <div class="art-layout-wrapper">
+                <div class="art-content-layout">
+                    <div class="art-content-layout-row">
+                        <div class="art-layout-cell art-sidebar1"><div class="art-vmenublock clearfix">
+        <div class="art-vmenublockheader">
+            <h3 class="t">Meni</h3>
+        </div>
+        <div class="art-vmenublockcontent">
+<ul class="art-vmenu"><li><a href="domov.html" class="active">Domov</a></li><li><a href="o-nas.html">O nas</a></li><li><a href="panelne-ograje.html">Panelne ograje</a><ul><li><a href="panelne-ograje/zenturo-dekorativne-ograje.html">Zenturo® dekorativne ograje</a></li><li><a href="panelne-ograje/nylofor-3d.html">Nylofor® 3D</a></li><li><a href="panelne-ograje/nylofor-3d-multi.html">Nylofor® 3D Multi</a></li><li><a href="panelne-ograje/nylofor-3d-super.html">Nylofor® 3D Super</a></li><li><a href="panelne-ograje/decofor.html">Decofor®</a></li><li><a href="panelne-ograje/securifor.html">Securifor®</a></li><li><a href="panelne-ograje/bekafor-classic.html">Bekafor® Classic</a></li><li><a href="panelne-ograje/bekafor-prestige.html">Bekafor® Prestige</a></li><li><a href="panelne-ograje/bekasport.html">Bekasport®</a></li></ul></li><li><a href="mobilne-ograje.html">Mobilne ograje</a><ul><li><a href="mobilne-ograje/tip-b.html">Tip B</a></li><li><a href="mobilne-ograje/tip-c.html">Tip C</a></li><li><a href="mobilne-ograje/tip-f.html">Tip F</a></li></ul></li><li><a href="ograje-v-rolah.html">Ograje v rolah</a><ul><li><a href="ograje-v-rolah/pantanet-basic.html">Pantanet® Basic</a></li><li><a href="ograje-v-rolah/pantanet-family.html">Pantanet® Family</a></li><li><a href="ograje-v-rolah/pantanet-protect.html">Pantanet® Protect</a></li><li><a href="ograje-v-rolah/fortinet-medium.html">Fortinet® Medium</a></li><li><a href="ograje-v-rolah/fortinet-super.html">Fortinet® Super</a></li><li><a href="ograje-v-rolah/luxanet.html">Luxanet®</a></li><li><a href="ograje-v-rolah/luxursus.html">Luxursus®</a></li><li><a href="ograje-v-rolah/plasitor.html">Plasitor®</a></li><li><a href="ograje-v-rolah/casanet.html">Casanet®</a></li><li><a href="ograje-v-rolah/casanet-plastic-voliere.html">Casanet® Plastic Voliere</a></li><li><a href="ograje-v-rolah/hexanet-plastic.html">Hexanet® Plastic</a></li><li><a href="ograje-v-rolah/galitor.html">Galitor®</a></li><li><a href="ograje-v-rolah/hexanet.html">Hexanet®</a></li><li><a href="ograje-v-rolah/ursus-light-zincalu.html">Ursus® Light Zincalu®</a></li><li><a href="ograje-v-rolah/ursus-heavy-zincalu-super.html">Ursus® Heavy Zincalu® Super</a></li><li><a href="ograje-v-rolah/ursus-as-leger-as-medium.html">Ursus® AS Leger / AS Medium</a></li></ul></li><li><a href="pesjaki.html">Pesjaki</a></li><li><a href="vrata.html">Vrata</a></li><li><a href="galerija.html">Galerija</a></li></ul>
+                
+        </div>
+</div><div class="art-block clearfix">
+        <div class="art-blockheader">
+            <h3 class="t">Kontakt</h3>
+        </div>
+        <div class="art-blockcontent"><p><span style="color: #A83000;">Naslov:</span> <span style="background-color: rgb(18, 27, 43);">Gubčeva ulica 11, 8270 Krško</span></p><p><span style="color: #A83000;">Telefon:</span> 041-715-019</p><p><span style="font-size: 10px;"><span style="color: rgb(168, 48, 0);">E-mail:</span>&nbsp;</span><span style="font-size: 9px;">janezrunovec@gmail.com</span></p>
+<p><a href="o-nas.html" class="art-button">Več</a></p></div>
+</div><div class="art-block clearfix">
+        <div class="art-blockheader">
+            <h3 class="t">Proizvajalci</h3>
+        </div>
+        <div class="art-blockcontent"><p><a href="http://www.buildersfence.com/"></a></p><img width="99" height="58" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px;" alt="" class="art-lightbox" src="images/577ea1ad-cc8d-48f0-90be-449c0bd76981.png">
+<a href="http://www.betafence.com/"></a><p><img width="193" height="42" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px;" alt="" class="art-lightbox" src="images/e2f5763a-559f-4422-bf74-8a582350287e.png">
+<br></p><p>
+ 
+</p></div>
+</div></div>
+                        <div class="art-layout-cell art-content"><article class="art-post art-article">
+                                
+                                                
+                <div class="art-postcontent art-postcontent-0 clearfix"><div class="art-content-layout layout-item-0">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-2" style="width: 100%" >
+        <h3 style="color: #4C5057; float: left; margin-left: 30px; padding-top: 10px;">Nudimo vam najboljše produkte proizvajalca:&nbsp;</h3><h3 style="color: #4C5057; float: left; margin-left: 30px; padding-top: 10px;">BUILDER in BETAFENCE &nbsp; &nbsp; &nbsp; &nbsp; <a href="http://www.buildersfence.com/"><img width="100" height="21" alt="" src="images/logo-builder-fence-2.jpg" class=""></a>&nbsp;&nbsp;<a href="http://www.betafence.com/"><img width="99" height="58" alt="" src="images/betafence-2.gif" style="float: right;" class=""></a></h3>
+        <br>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout-br layout-item-1">
+</div><div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-3" style="width: 50%" >
+        <h3><span style="color: #E04000;">Kaj vam ponujamo?</span></h3><p><span style="font-size: 16px;">Ponujamo vam najrazličnejše vrste ograj, vrat in pesjakov:</span></p><ul><li><span style="font-size: 16px;">Panelne ograje</span></li><li><span style="font-size: 16px;">Mobilne ograje</span></li><li><span style="font-size: 16px;">Ograje v rolah</span></li><li><span style="font-size: 16px;">Vrata</span></li><li><span style="font-size: 16px;">Pesjake</span></li></ul><p><br></p>
+    </div><div class="art-layout-cell layout-item-3" style="width: 50%" >
+        <h3><img width="300" height="203" alt="" class="art-lightbox" src="images/shutterstock_42486898.jpg"><br></h3><p>
+        </p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-3" style="width: 20%" >
+        <p class="MsoNormal" style="margin-top: 7.5pt; margin-right: 0cm; margin-bottom: 7.5pt; margin-left: 0cm;"><b><span style="font-size: 12pt; font-family: 'Trebuchet MS', sans-serif; color: rgb(224, 64, 0);">Panelne ograje</span></b><b></b></p>
+         
+        <p class="MsoNormal"><span style="line-height: 115%; color: #000000;">Panelne
+         ograje so nameščene z enakimi zaščitnimi jeklenimi drogovi. Montaža je hitra in
+         enostavna.</span></p><p class="MsoNormal" style="margin-top: 9pt; margin-right: 0cm; margin-bottom: 9pt; margin-left: 0cm;"><span style="font-size: 10pt; font-family: Arial, sans-serif; color: black; background-color: rgb(218, 221, 226);"></span></p><p><img width="112" height="84" alt="" class="art-lightbox" src="images/Bekasport-1.jpg"><span style="color: rgb(0, 0, 0); font-family: Arial, sans-serif; line-height: 14px; background-color: rgb(218, 221, 226);"><br></span></p>
+        <p><a href="panelne-ograje.html" class="art-button">Več</a></p>
+    </div><div class="art-layout-cell layout-item-3" style="width: 20%" >
+        <p><span style="font-family: 'Trebuchet MS'; font-size: 16px; font-weight: bold; color: #E04000;">Mobilne ograje</span></p>
+        <p class="MsoNormal"><span style="line-height: 115%; color: #000000;">So lahke za
+         prenašanje in izpolnjujejo vse zahteve varnosti.</span></p><p><img width="109" height="75" alt="" class="art-lightbox" src="images/lista_tempofor_c.jpg"><br></p><p>&nbsp;<a href="mobilne-ograje.html" class="art-button">Več</a>&nbsp;<br></p>
+    </div><div class="art-layout-cell layout-item-3" style="width: 20%" >
+        <h3><span style="font-family: 'Trebuchet MS'; font-size: 16px; color: #E04000;">Ograje v rolah</span></h3><p class="MsoNormal"><span style="line-height: 115%; font-family: Verdana; color: #000000;">Velika
+         izbira zadovoljuje široko uporabo. Ograje so lahko pocinkane in plastificirane,
+         pletene, pocinkane, elektrovarjene.</span></p>
+        <p><img width="110" height="110" alt="" class="art-lightbox" src="images/548ior.jpg"><br></p>
+        <p><a href="ograje-v-rolah.html" class="art-button">Več</a></p>
+    </div><div class="art-layout-cell layout-item-3" style="width: 20%" >
+        <h3><span style="font-size: 16px; font-family: 'Trebuchet MS'; color: rgb(255, 83, 15); font-weight: bold;"><span style="color: #E04000;">Pesjaki</span></span></h3><p><span style="color: rgb(0, 0, 0); font-family: Verdana;">Na voljo imate veliko kvalitetnih&nbsp;vrst pesjakov.</span></p><p><img width="110" height="61" alt="" class="art-lightbox" src="images/01072012125.jpg"><span style="color: rgb(0, 0, 0); font-family: Arial;"><br></span></p><p>&nbsp;<a href="pesjaki.html" class="art-button">Več</a>&nbsp;<br></p>
+    </div><div class="art-layout-cell layout-item-3" style="width: 20%" >
+        <h3><span style="font-family: 'Trebuchet MS'; font-size: 16px; color: #E04000;">Vrata</span></h3><p class="MsoNormal"><span style="font-size: 10pt; line-height: 115%; color: black; font-family: Verdana;">Vrata različnih
+         dimenzij in vrst – navadna, enokrilna, dvokrilna, samonosna, drseča,... Vrata
+         so lahko različnih velikosti(od 1m do 20m).</span></p><p><img width="110" height="82" alt="" class="art-lightbox" src="images/01_enokrilna-vrata-rvs-l.jpg"><span style="font-family: Arial;"><span data-mce-style="color: black; font-size: 10pt; line-height: 115%;" style="font-size: 10pt; background-color: rgb(218, 221, 226); color: black; line-height: 14px;"><br></span></span></p><p>&nbsp;<a href="vrata.html" class="art-button">Več</a>&nbsp;<span style="font-family: Arial;"><br></span></p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout-br layout-item-4">
+</div><div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-3" style="width: 100%" >
+        <h2><span style="color: rgb(0, 0, 0); line-height: 16px; font-size: 22px; font-family: Impact; font-weight: normal;">O nas</span></h2><p class="MsoNormal"><span style="line-height: 115%; font-size: 14px; color: #000000;">Smo mlado
+         podjetje, ki se ukvarjamo s prodajo in montažo mrež. Pri nas v podjetju vam
+         nudimo od svetovanja do izvedbe del. Nudimo širok spekter ponudb proizvajalca
+         Builder, ki je nekoliko cenejši cenovni razred in pa od proizvajalca Betafence,
+         ki pa je nekoliko dražji cenovni razred. V našem podjetju nudimo mreže za
+         različne namene, kot so panelne ograje te so namenjene predvsem za športna
+         igrišča, vrtce, hiše,… trde ograje, ki so namenjene za ravne terene, predvsem
+         za vrtove, hiše,… in pa pletene mreže, ki pa so namenjene tako za ravne terene
+         kot za naklone. Kvaliteta in zadovoljstvo strank je naša prioriteta.</span></p><p><span style="font-size: 16px; line-height: 18px; background-color: rgb(218, 221, 226);"></span><br></p><div id="DSCN2230" style="position: relative; display: inline-block; z-index: 0; margin: 0px;  border-width: 0px; left: 175px;" class="art-collage">
+<div class="art-slider art-slidecontainerDSCN2230" data-width="300" data-height="225">
+    <div class="art-slider-inner">
+<div class="art-slide-item art-slideDSCN22300">
+
+</div>
+<div class="art-slide-item art-slideDSCN22301">
+
+</div>
+<div class="art-slide-item art-slideDSCN22302">
+
+</div>
+<div class="art-slide-item art-slideDSCN22303">
+
+</div>
+<div class="art-slide-item art-slideDSCN22304">
+
+</div>
+<div class="art-slide-item art-slideDSCN22305">
+
+</div>
+
+    </div>
+</div>
+<div class="art-slidenavigator art-slidenavigatorDSCN2230" data-left="58.67">
+<a href="#" class="art-slidenavigatoritem"></a><a href="#" class="art-slidenavigatoritem"></a><a href="#" class="art-slidenavigatoritem"></a><a href="#" class="art-slidenavigatoritem"></a><a href="#" class="art-slidenavigatoritem"></a><a href="#" class="art-slidenavigatoritem"></a>
+</div>
+
+
+
+    </div>
+
+        
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+        <p><span style="font-size: 16px; line-height: 18px; background-color: rgb(218, 221, 226);"><br></span></p>
+    </div>
+    </div>
+</div>
+</div>
+                                
+                
+
+</article></div>
+                    </div>
+                </div>
+            </div>
+    </div>
+<footer class="art-footer">
+  <div class="art-footer-inner">
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 50%">
+        <p style="float: left; padding-left: 20px; text-align: left;"><a href="domov.html">Domov</a>&nbsp; &nbsp;| &nbsp;<a href="o-nas.html">O nas</a> &nbsp; | <a href="galerija.html">Galerija</a></p>
+    </div><div class="art-layout-cell layout-item-0" style="width: 50%">
+        <p style="padding-right: 20px; text-align: right;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="font-family: 'PT Sans', Arial, 'Arial Unicode MS', Helvetica, sans-serif; font-size: 12px; text-align: center; color: #E2E8EE;">Copyright © 2014. All Rights Reserved.</span><br></p>
+    </div>
+    </div>
+</div>
+
+    <p class="art-page-footer">
+        <span id="art-footnote-links"><a href="http://www.artisteer.com/" target="_blank">Web Template</a> created with Artisteer.</span>
+    </p>
+  </div>
+</footer>
+
+</div>
+
+
+</body></html>
